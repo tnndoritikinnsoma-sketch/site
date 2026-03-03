@@ -1,3 +1,11 @@
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false, // フォーム入力時に勝手にズームされるのを防ぐ（実用的！）
+  viewportFit: 'cover', // Dynamic Islandや下のバーまでフル活用する
+}
+
 import type { Metadata } from "next";
 import "./globals.css";
 
